@@ -1,0 +1,49 @@
+.big-search{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 45px;
+}
+.nd-bar{
+    display: flex;
+    width:600px;
+    border-radius:30px;
+    border:2px;
+    border-color: rgb(203, 201, 201);
+    border-style: solid; 
+    margin-left: 370px;
+    align-items: center;
+    box-shadow: 2px 2px 5px 0px lightgray;
+}
+.google-bar-left{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+.google-search-icon{
+    width: 20px;
+    margin-left: 10px;
+}
+.search-bar{
+    border: none;
+    outline: none;
+    height: 18px;
+    width: 300px;
+    font-size:15px;
+    font-weight: 200;
+    font-family: Arial;
+    margin-left: 8px;
+}
+.google-bar-right{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.google-mic{
+    width: 25px;
+    margin-left: 155px;
+}
+.google-scanner{
+    margin-left:40px;
+    width: 25px;
+}

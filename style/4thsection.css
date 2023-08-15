@@ -1,0 +1,46 @@
+.name{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 55px;
+    margin-top: 15px;
+}
+.left-name{
+    display: flex;
+    flex: 1;
+}
+.right-name{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+.youtube-app{
+    height: 25px;
+    padding: 8px;
+    border-radius: 20px;
+}
+/* .youtube-app:hover{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+} */
+.gmailss{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.image{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 38);
+    font-size: 15px;
+    cursor: pointer;
+}
+.gmailss:hover{
+     text-decoration: underline;
+     
+}
+.image:hover{
+    text-decoration: underline;
+    
+}

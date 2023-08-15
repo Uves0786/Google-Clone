@@ -1,0 +1,10 @@
+.big-section{
+    height: 130px;
+    display: flex;
+    flex: 1;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}

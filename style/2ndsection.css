@@ -1,0 +1,130 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height:50px;
+    align-items: center;
+    background-color: white;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.left1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+} 
+.mid1{
+   flex: 1;
+}
+.right1{
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+    margin:0 auto;
+    width:1100px;
+    border-radius:30px;
+    border:2px;
+    background-color: rgb(235, 235, 235);
+    border-color: rgb(235, 235, 235);
+    border-style: solid; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+.searchbar{
+    height:35px;
+    font-size:16px;
+    border: none;
+    outline: none;  
+    margin-left: 8px;
+    background-color: rgb(235, 235, 235);
+}
+.bar-left{
+    width: 450px;
+}
+.google-small-logo{
+    width: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.bar-right{
+    flex: 1;
+}
+.right1 img{
+    width: 22px;
+    padding: 3px 2px;
+    margin-left: 4px;
+    border-radius: 20px;
+    
+}
+.right1 img:hover{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+}
+.share-icon-button{
+    width: 45px;
+    border: none;
+}
+.share-icon{
+    width: 20px;
+    padding: 5px 8px;
+    margin-left: 560px;
+    
+}
+.share-icon:hover{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+   
+}
+
+.star{
+    width: 20px; 
+    margin-left: 5px;
+    padding: 5px 8px;
+}
+.star:hover{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+}
+.left-arrow img,
+ .right-arrow img,
+ .refresh img{
+    width: 20px;
+    margin-left: 15px;
+
+}
+.left-arrow,
+.right-arrow,
+.refresh{
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+.left-arrow .tooltip1,
+.right-arrow .tooltip1,
+.refresh .tooltip1{
+position: absolute;
+background-color: white;
+padding-left: 12px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-right: 12px;
+border-radius: 2px;
+border: 1px solid black;
+font-size: 12px;
+bottom:-50px;
+opacity: 0;
+pointer-events: none;
+white-space: nowrap;
+}
+.left-arrow:hover .tooltip1,
+.right-arrow:hover .tooltip1,
+.refresh:hover .tooltip1{
+    opacity: 1;
+}
